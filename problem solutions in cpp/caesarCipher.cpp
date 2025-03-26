@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//This code includes the caesar cipher algorithm for encoding and decoding the message onto a user input message.
 string caesarCipher(string text, int shift, bool encode = true){
   string result = "";
   if (!encode) {
@@ -37,3 +37,6 @@ int main(){
 
   return 0;
 }
+
+
+//Output
